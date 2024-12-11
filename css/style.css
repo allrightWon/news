@@ -1,0 +1,179 @@
+/* fontawesome CDN */
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+/* xeicon CDN */
+@import url("http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css");
+/* font(pretendard) CDN */
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+
+/* reset */
+* {
+  box-sizing: border-box;
+  font-family: "Pretendard Variable";
+}
+body {
+  margin: 0;
+  font-weight: 400;
+  height: 100vh;
+  color: #000;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+em {
+  font-style: normal;
+}
+
+header {
+  padding: 15px 20px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-and-title {
+  display: flex;
+}
+.logo-and-title h1 {
+  font-size: 1rem;
+  margin-left: 10px;
+}
+.logo-and-title img {
+  width: 50px;
+}
+.subc-and-search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.subc-and-search a {
+  font-size: 14px;
+  display: inline-block;
+  width: 60px;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 30px;
+  background-color: cornflowerblue;
+  color: #fff;
+  font-weight: 600;
+}
+section {
+  padding: 50px 20px;
+}
+section h2 {
+  line-height: 1.5em;
+}
+section h2 span {
+  display: block;
+  margin-left: 7px;
+}
+.heading {
+  margin-bottom: 20px;
+}
+.heading p {
+  font-size: 14px;
+  margin-left: 7px;
+  margin-top: 10px;
+}
+.icon {
+  text-align: right;
+}
+.banner {
+  background-color: #eee;
+  border-radius: 10px;
+  margin-top: 12px;
+  margin-bottom: 30px;
+}
+.banner img {
+  width: 330px;
+}
+.content {
+  font-size: 18px;
+}
+.content img {
+  width: 100%;
+  margin: 20px 0;
+}
+.content p {
+  word-break: keep-all;
+  line-height: 1.5em;
+}
+.content span {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #666;
+  font-size: 14px;
+}
+.gsj {
+  margin-top: 20px;
+}
+.hr {
+  margin: 30px 0;
+}
+.hr p {
+  width: 70%;
+  margin: auto;
+  position: relative;
+}
+.hr p:before {
+  position: absolute;
+  content: "";
+  display: inline-block;
+  width: 40px;
+  height: 1px;
+  background-color: #ccc;
+  top: 50%;
+  left: -50px;
+}
+.hr p:after {
+  position: absolute;
+  content: "";
+  display: inline-block;
+  width: 40px;
+  height: 1px;
+  background-color: #ccc;
+  top: 50%;
+  right: -50px;
+}
+.review ul {
+  display: flex;
+}
+.review ul li {
+  flex: 1;
+  text-align: center;
+  font-size: 14px;
+}
+.review ul li span {
+  display: block;
+}
+.review-icon {
+  width: 50px;
+  height: 50px;
+}
+.review-icon:nth-child(1) {
+}
+.review-icon:nth-child(2) {
+}
+.review-icon:nth-child(3) {
+}
+.review-icon:nth-child(4) {
+}
+.review-icon:nth-child(5) {
+}
